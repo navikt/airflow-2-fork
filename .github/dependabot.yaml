@@ -14,7 +14,17 @@ updates:
         - '*'
 
 - package-ecosystem: "pip"
-  directory: "/"
+  directories: 
+  - "/"
+  - "/airflow/providers/cncf/kubernetes"
+  - "/airflow/providers/google"
+  - "/airflow/providers/slack"
+  - "/airflow/providers/oracle"
+  - "/airflow/providers/apache/kafka"
+  - "/airflow/providers/smtp" 
+  - "/airflow/providers/ssh"
+  - "/airflow/providers/sftp"
+  - "/airflow/providers/snowflake"
   schedule:
     interval: "weekly"
   groups:
