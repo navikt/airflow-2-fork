@@ -25,6 +25,8 @@ updates:
   - "/airflow/providers/ssh"
   - "/airflow/providers/sftp"
   - "/airflow/providers/snowflake"
+  cooldown:
+    default-days: 7
   schedule:
     interval: "weekly"
   groups:
