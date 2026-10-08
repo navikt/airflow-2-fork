@@ -86,7 +86,7 @@
     "jest-canvas-mock": "^2.5.1",
     "jest-environment-jsdom": "^30.2.0",
     "mini-css-extract-plugin": "^2.10.0",
-    "moment": "^2.29.4",
+    "moment": "^2.31.0",
     "moment-locales-webpack-plugin": "^1.2.0",
     "openapi-typescript": "^7.13.0",
     "prettier": "^3.8.1",
