@@ -4859,24 +4859,16 @@ wheels = [
 
 [[package]]
 name = "databricks-sql-connector"
-version = "2.9.6"
+version = "2.0.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "alembic" },
-    { name = "lz4" },
-    { name = "numpy" },
-    { name = "oauthlib" },
-    { name = "openpyxl" },
     { name = "pandas" },
     { name = "pyarrow" },
-    { name = "requests" },
-    { name = "sqlalchemy" },
     { name = "thrift" },
-    { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/5f/fc/aaf10de12cd970a10c774b66e9fe57a47c6ff7483683c2bcb76e13ede96a/databricks_sql_connector-2.9.6.tar.gz", hash = "sha256:e55f5b8ede8ae6c6f31416a4cf6352f0ac019bf6875896c668c7574ceaf6e813", size = 288798, upload-time = "2024-04-18T17:39:35.129Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/21/0e/7875ef5ccd1e22a853c49dae92e789193e46b320d8804eac27deae58172a/databricks-sql-connector-2.0.2.tar.gz", hash = "sha256:b74bb176571ba6107c3610b04ec875bf52951c50e515bea8abb2ffb8fe4c90d7", size = 193885, upload-time = "2022-05-05T09:50:13.75Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/05/69/74fcf07b6ad65640a5f40c6cee6f14654bec7d19de80b30ed95dd0ef48be/databricks_sql_connector-2.9.6-py3-none-any.whl", hash = "sha256:d830abf86e71d2eb83c6a7b7264d6c03926a8a83cec58541ddd6b83d693bde8f", size = 298568, upload-time = "2024-04-18T17:39:32.461Z" },
+    { url = "https://files.pythonhosted.org/packages/8c/b0/bc53f399ba0d34239c9e29ef2a9fbb9d4385ee24159b30e98bdef6002e3d/databricks_sql_connector-2.0.2-py3-none-any.whl", hash = "sha256:480f299d2a9f950da4f7a12a5a1dd51789af588c133f237a1878b7a4d506bad8", size = 196865, upload-time = "2022-05-05T09:50:10.544Z" },
 ]
 
 [[package]]
@@ -5120,15 +5112,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/6d/84/d43709501e867d00448ce98db3ea2e02d67b71813e1587f9aa94d338fc24/eralchemy2-1.4.1.tar.gz", hash = "sha256:1c1ee49b26287a459c5c89aa3eba3d6a9d1b8e6bd245d9fbacc6b15560fc66a5", size = 24101, upload-time = "2024-05-20T09:27:37.414Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/29/b2/192f1f9b0eebd0169549e291bb9ca1b522636c48b530af655524e2a20896/eralchemy2-1.4.1-py3-none-any.whl", hash = "sha256:be3ecd4e696172fe4b439a3010b08564c6f7c7323b9e9b4369e47da7a7b48428", size = 18565, upload-time = "2024-05-20T09:27:35.844Z" },
-]
-
-[[package]]
-name = "et-xmlfile"
-version = "2.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/d3/38/af70d7ab1ae9d4da450eeec1fa3918940a5fafb9055e934af8d6eb0c2313/et_xmlfile-2.0.0.tar.gz", hash = "sha256:dab3f4764309081ce75662649be815c4c9081e88f0837825f90fd28317d4da54", size = 17234, upload-time = "2024-10-25T17:25:40.039Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/c1/8b/5fe2cc11fee489817272089c4203e679c63b570a5aaeb18d852ae3cbba6a/et_xmlfile-2.0.0-py3-none-any.whl", hash = "sha256:7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa", size = 18059, upload-time = "2024-10-25T17:25:39.051Z" },
 ]
 
 [[package]]
@@ -8056,11 +8039,11 @@ wheels = [
 
 [[package]]
 name = "oauthlib"
-version = "3.3.1"
+version = "4.0.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/0b/5f/19930f824ffeb0ad4372da4812c50edbd1434f678c90c2733e1188edfc63/oauthlib-3.3.1.tar.gz", hash = "sha256:0f0f8aa759826a193cf66c12ea1af1637f87b9b4622d46e866952bb022e538c9", size = 185918, upload-time = "2025-06-19T22:48:08.269Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/7a/d8/a1bcc8ba112a627f8ffbdc212a78ce18d3ac07e91a5ca65d27918eee25a1/oauthlib-4.0.0.tar.gz", hash = "sha256:efb274799819440f95b4ab3b818869f1ce9ae26c5beacba0201d1a1b76b54f86", size = 187232, upload-time = "2026-09-28T06:01:18.77Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/be/9c/92789c596b8df838baa98fa71844d84283302f7604ed565dafe5a6b5041a/oauthlib-3.3.1-py3-none-any.whl", hash = "sha256:88119c938d2b8fb88561af5f6ee0eec8cc8d552b7bb1f712743136eb7523b7a1", size = 160065, upload-time = "2025-06-19T22:48:06.508Z" },
+    { url = "https://files.pythonhosted.org/packages/d9/f4/78229a1066068ca14fc60fb26cf7381cabe4382261392b90e5f9552722d4/oauthlib-4.0.0-py3-none-any.whl", hash = "sha256:624c28c13a0a59cabf9747dfa52af63be3e512a7f2714df16e91b5b3a145e6cd", size = 159715, upload-time = "2026-09-28T06:01:17.008Z" },
 ]
 
 [[package]]
@@ -8162,18 +8145,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/56/98/fdc5ef36594b4379df19be5b18352e26697d3e87d97bad7fcc2f3f4036a4/openlineage_sql-1.47.1-cp310-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl", hash = "sha256:5f2b9419a5af38842f8e09dd1268adf4d9a301a91ff0a1920918fe8bcca5e78d", size = 4932522, upload-time = "2026-05-12T14:51:29.36Z" },
     { url = "https://files.pythonhosted.org/packages/90/b3/ebb42164e9846900f52e58c70ce70c3d36eab6fd673e4887642e591f2671/openlineage_sql-1.47.1-cp310-abi3-manylinux_2_28_aarch64.whl", hash = "sha256:00d5dfc2630772ddd2df1ae32df277ca719d5b426ac1b45f4b5ccab29bfabce2", size = 2479364, upload-time = "2026-05-12T14:51:30.908Z" },
     { url = "https://files.pythonhosted.org/packages/73/48/adff13c7fab0f5f170644addd28197bd19f60bc0c545a39b1111dd74ff2f/openlineage_sql-1.47.1-cp310-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:b1f73736a7f4a1d20555825a03d9faffed2d0f0af185fc7609628c9b4f8b5299", size = 2650985, upload-time = "2026-05-12T14:51:32.418Z" },
-]
-
-[[package]]
-name = "openpyxl"
-version = "3.1.5"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "et-xmlfile" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/3d/f9/88d94a75de065ea32619465d2f77b29a0469500e99012523b91cc4141cd1/openpyxl-3.1.5.tar.gz", hash = "sha256:cf0e3cf56142039133628b5acffe8ef0c12bc902d2aadd3e0fe5878dc08d1050", size = 186464, upload-time = "2024-06-28T14:03:44.161Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/c0/da/977ded879c29cbd04de313843e76868e6e13408a94ed6b987245dc7c8506/openpyxl-3.1.5-py2.py3-none-any.whl", hash = "sha256:5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2", size = 250910, upload-time = "2024-06-28T14:03:41.161Z" },
 ]
 
 [[package]]
