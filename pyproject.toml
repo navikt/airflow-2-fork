@@ -247,6 +247,11 @@ YouTube = "https://www.youtube.com/channel/UCSXwxpWZQ7XZ1WL3wqevChA/"
 [tool.hatch.version]
 path = "airflow/__init__.py"
 
+[tool.hatch.build.targets.wheel]
+include = ["/airflow"]
+exclude = ["/airflow/providers/", "/airflow/www/node_modules/"]
+artifacts = ["/airflow/www/static/dist/", "/airflow/git_version"]
+
 ## black settings ##
 [tool.black]
 line-length = 110
