@@ -986,7 +986,6 @@ devel = [
     { name = "cryptography" },
     { name = "duckdb" },
     { name = "flower" },
-    { name = "gitpython" },
     { name = "google-re2" },
     { name = "hatch" },
     { name = "incremental" },
@@ -1120,7 +1119,6 @@ devel-all = [
     { name = "gcloud-aio-storage" },
     { name = "gcsfs" },
     { name = "gevent" },
-    { name = "gitpython" },
     { name = "google-ads" },
     { name = "google-analytics-admin" },
     { name = "google-api-core" },
@@ -1465,7 +1463,6 @@ devel-ci = [
     { name = "gcloud-aio-storage" },
     { name = "gcsfs" },
     { name = "gevent" },
-    { name = "gitpython" },
     { name = "google-ads" },
     { name = "google-analytics-admin" },
     { name = "google-api-core" },
@@ -1697,7 +1694,6 @@ devel-debuggers = [
 ]
 devel-devscripts = [
     { name = "click" },
-    { name = "gitpython" },
     { name = "hatch" },
     { name = "incremental" },
     { name = "pipdeptree" },
@@ -1724,7 +1720,6 @@ devel-hadoop = [
     { name = "cryptography" },
     { name = "duckdb" },
     { name = "flower" },
-    { name = "gitpython" },
     { name = "google-re2" },
     { name = "hatch" },
     { name = "hdfs", extra = ["avro", "dataframe", "kerberos"] },
@@ -3100,8 +3095,6 @@ requires-dist = [
     { name = "gcsfs", marker = "extra == 'google'", specifier = ">=2023.10.0" },
     { name = "gevent", marker = "extra == 'async'", specifier = ">=0.13" },
     { name = "gevent", marker = "extra == 'devel-ci'", specifier = ">=0.13" },
-    { name = "gitpython", marker = "extra == 'devel-ci'", specifier = ">=3.1.40" },
-    { name = "gitpython", marker = "extra == 'devel-devscripts'", specifier = ">=3.1.40" },
     { name = "google-ads", marker = "extra == 'devel-ci'", specifier = ">=24.1.0" },
     { name = "google-ads", marker = "extra == 'google'", specifier = ">=24.1.0" },
     { name = "google-analytics-admin", marker = "extra == 'devel-ci'", specifier = ">=0.9.0" },
@@ -5520,30 +5513,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/f9/3c/2fe77ee6e3d381b3c50c0b7d6c4c08c08b8ff5e8c0d9dd51a3b426d61eec/gevent-26.5.0-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:0bf57df54f1c66273bf3601c2a1e41b12138fe848933718369663bc54f177ca2", size = 2140806, upload-time = "2026-05-20T20:43:28.895Z" },
     { url = "https://files.pythonhosted.org/packages/22/d5/4620797bbd9c88f4541188efc138b0d615f9834db540da36a2249ee929c5/gevent-26.5.0-cp312-cp312-win_amd64.whl", hash = "sha256:e49ce0de007dfd7412edbc2b5d41cce33b049bb1b7086f50be5a09e601bde603", size = 1699995, upload-time = "2026-05-20T20:15:39.311Z" },
     { url = "https://files.pythonhosted.org/packages/cb/83/ac3477dfc0f9fd80c88110102c73cefc35dcded2b248544f45a8fa5412df/gevent-26.5.0-cp312-cp312-win_arm64.whl", hash = "sha256:5c5ff29495a2eed2a244de8150f21893d6c1b15d8b4b5719ab4bbfa06db1e28f", size = 1547433, upload-time = "2026-05-20T20:15:51.656Z" },
-]
-
-[[package]]
-name = "gitdb"
-version = "4.0.12"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "smmap" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/72/94/63b0fc47eb32792c7ba1fe1b694daec9a63620db1e313033d18140c2320a/gitdb-4.0.12.tar.gz", hash = "sha256:5ef71f855d191a3326fcfbc0d5da835f26b13fbcba60c32c21091c349ffdb571", size = 394684, upload-time = "2025-01-02T07:20:46.413Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/a0/61/5c78b91c3143ed5c14207f463aecfc8f9dbb5092fb2869baf37c273b2705/gitdb-4.0.12-py3-none-any.whl", hash = "sha256:67073e15955400952c6565cc3e707c554a4eea2e428946f7a4c162fab9bd9bcf", size = 62794, upload-time = "2025-01-02T07:20:43.624Z" },
-]
-
-[[package]]
-name = "gitpython"
-version = "3.1.50"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "gitdb" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/33/f6/354ae6491228b5eb40e10d89c4d13c651fe1cf7556e35ebdded50cff57ce/gitpython-3.1.50.tar.gz", hash = "sha256:80da2d12504d52e1f998772dc5baf6e553f8d2fcfe1fcc226c9d9a2ee3372dcc", size = 219798, upload-time = "2026-05-06T04:01:26.571Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/20/7a/1c6e3562dfd8950adbb11ffbc65d21e7c89d01a6e4f137fa981056de25c5/gitpython-3.1.50-py3-none-any.whl", hash = "sha256:d352abe2908d07355014abdd21ddf798c2a961469239afec4962e9da884858f9", size = 212507, upload-time = "2026-05-06T04:01:23.799Z" },
 ]
 
 [[package]]
@@ -10279,15 +10248,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/33/76/c32681e925fc859578d4e41e4bd3ef7e2b9e7d06141f703eec032875b28a/smbprotocol-1.16.1.tar.gz", hash = "sha256:ad7a31662792817c6da3629a3cfb96a51d8213e993ebd0c0a7ee750d2b1f8ec8", size = 186164, upload-time = "2026-04-02T03:01:28.961Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/79/43/8acc58e24f78af82300a8ebdd457face4c6e4b27f7b52885a239724d3e21/smbprotocol-1.16.1-py3-none-any.whl", hash = "sha256:0f9c35b2a0103314da06aecaffa8821f060a9773ad82cc0d7f29130083d598b4", size = 126532, upload-time = "2026-04-02T03:01:27.718Z" },
-]
-
-[[package]]
-name = "smmap"
-version = "5.0.3"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/1f/ea/49c993d6dfdd7338c9b1000a0f36817ed7ec84577ae2e52f890d1a4ff909/smmap-5.0.3.tar.gz", hash = "sha256:4d9debb8b99007ae47165abc08670bd74cb74b5227dda7f643eccc4e9eb5642c", size = 22506, upload-time = "2026-03-09T03:43:26.1Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/c1/d4/59e74daffcb57a07668852eeeb6035af9f32cbfd7a1d2511f17d2fe6a738/smmap-5.0.3-py3-none-any.whl", hash = "sha256:c106e05d5a61449cf6ba9a1e650227ecfb141590d2a98412103ff35d89fc7b2f", size = 24390, upload-time = "2026-03-09T03:43:24.361Z" },
 ]
 
 [[package]]
